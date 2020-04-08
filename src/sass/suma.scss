@@ -1,0 +1,21 @@
+.operation {
+  display: flex;
+  flex-flow: row;
+  place-content: center;
+  align-items: center;
+  input {
+    margin-left: 10px;
+    width: 40px;
+    text-align: center;
+  }
+}
+.result-image {
+  width: 30px;
+  height: 40px;
+}
+.finish-container {
+  button {
+    margin: 0 10px;
+    place-content: center;
+  }
+}

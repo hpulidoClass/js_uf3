@@ -1,0 +1,25 @@
+/* line 1, ../sass/suma.scss */
+.operation {
+  display: flex;
+  flex-flow: row;
+  place-content: center;
+  align-items: center;
+}
+/* line 6, ../sass/suma.scss */
+.operation input {
+  margin-left: 10px;
+  width: 40px;
+  text-align: center;
+}
+
+/* line 12, ../sass/suma.scss */
+.result-image {
+  width: 30px;
+  height: 40px;
+}
+
+/* line 17, ../sass/suma.scss */
+.finish-container button {
+  margin: 0 10px;
+  place-content: center;
+}

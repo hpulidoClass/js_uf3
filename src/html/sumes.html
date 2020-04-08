@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../stylesheets/styles.css" rel="stylesheet">
+    <link href="../stylesheets/w3.css" rel="stylesheet">
+    <script src="../js/sumes.js"></script>
+</head>
+<body onload="getSuma()">
+<header class="w3-card-4 w3-teal w3-center">
+    <h1>Apren Matematiques amb l'Héctor</h1>
+</header>
+<h3 class="w3-center">Per a passar aquest nivell hauras d'acertar 3 sumes de 5</h3>
+<div class="general-container">
+    <div id="results-containers">
+    </div>
+    <div class="switch-container">
+        <h3>Quin es el resultat d'aquesta suma?</h3>
+        <div class="operation">
+            <div id="operation-container">
+            </div>
+            <input type="tel" id="result">
+        </div>
+        <div>
+            <button id="submit-button" type="submit" class="w3-margin-top w3-teal w3-button" onclick="checkSuma()">Corregir</button>
+        </div>
+
+        <div class="finish-container" id="finish-container" style="display: none">
+            <button id="save-button" type="submit" class="w3-margin-top w3-teal w3-button" onclick="saveResult()">Guardar</button>
+            <a href="index.html" id="return-button" type="submit" class="w3-margin-top w3-teal w3-button"  >Inici</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
